@@ -1,0 +1,6 @@
+sudo apt-get install python3.10-venv -y
+sudo make lint
+sudo make test
+sudo make test-report
+cat test-results.xml
+sudo make run &
